@@ -1,0 +1,114 @@
+/* contact.css */
+
+#contactPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem;
+    text-align: center;
+    float: left;
+    margin: 4rem 0;
+    position: relative;
+    padding-left: 20vw;
+     /* Light gray background */
+  }
+  
+  .contactpagetitle {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    white-space: nowrap;
+    padding-right: 4rem;  
+   justify-content: center;
+   align-items: center;
+   margin-right: 100px;
+   float: center;
+  }
+  
+  .contactDesc {
+    width: 100vh;
+    font-size: 1.2rem;
+    color: #777; /* Lighter gray text */
+    margin-bottom: 3rem;
+    white-space: nowrap;
+  }
+  
+  .contactform {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vh; /* Adjust width as needed */
+    
+    
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+     /* Subtle shadow */
+  }
+  
+  .contactform input,
+  .contactform textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+    
+     /* Prevent textarea resizing */
+  }
+  .email{
+    color: red;
+  }
+  .msg{
+    color: white;
+  }
+  
+  .contactform button {
+    background-color: #007bff; /* Primary blue */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    border-radius: 2rem;
+    
+        
+  }
+  
+  .contactform button:hover {
+    background-color: #0069d9; 
+  }
+  
+  .links {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position:absolute;
+  }
+  
+  .link {
+    width: 40px;
+    height: 40px;
+    margin: 0 10px;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(184, 34, 34, 0.1); 
+  }
+  
+  .link:hover {
+    transform: scale(1.1); 
+  }
+  .Toget{
+     height: 10vw;
+     position: absolute;
+    padding-left: 100vw;
+  }
+ 
+@media screen and (device-width: 360px) and (min-device-height: 540px) and (-webkit-device-pixel-ratio: 3) {
+  #contactPage{
+    width: 90vw;
+}
+}

@@ -1,0 +1,55 @@
+.navbar {
+    background-color: rgb(30,30,30);
+    height: 5rem;
+    width: 100%;
+    max-width: 75rem;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+}
+.logo {
+  
+    object-fit: cover;
+    height: 3rem;
+    width: 4rem;
+}
+.desktopitem{
+    margin: 1rem;
+    cursor: pointer;
+   
+}
+.desktopitem:hover{
+    color: yellow;
+    padding-bottom: 0.3rem;
+    border-bottom: 3px solid yellow;
+}
+.contact{
+    height: 1rem;
+    object-fit: cover;
+    width: 1rem;
+    margin: 1rem;
+
+}
+.dsktpbtn{
+    background: white;
+    color: black;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 2rem;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+.active{
+    color: yellow;
+    padding-bottom: 0.3rem;
+    border-bottom: 3px solid yellow;
+
+}
